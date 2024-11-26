@@ -1,0 +1,61 @@
+.header {
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+.header .title {
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+}
+
+.section-body {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+    color: #f1f1f1;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.phu {
+    color: #f1f1f1;
+    opacity: 0.8;
+}
+
+.lido {
+    background-image: url('https://onggianoelviet.com/wp-content/themes/flatsome/assets/img/effects/snow1.png');
+    animation: snow 20s linear infinite
+}
+
+.section-body img {
+    width: fit-content;
+}
+
+.title-body {
+    font-weight: 700;
+}
+
+.icon-inner {
+    border-width:2px;
+    color:rgb(255, 255, 255);
+    width: 70px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.icon-inner:hover {
+    background-color: white;
+    cursor: pointer;
+    animation-duration: 10ms;
+}
+
+@keyframes snow {
+    0% {
+        background-position: 0px 0px, 0px 0px, 0px 0px;
+    }
+    100% {
+        background-position: 500px 1000px, 400px 400px, 300px 300px;
+    }
+}
